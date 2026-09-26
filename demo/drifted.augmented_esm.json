@@ -1,0 +1,251 @@
+{
+  "queries": {
+    "drifted0.4_Q7Z1Y7": {
+      "query name": "drifted0.4_Q7Z1Y7",
+      "status": {
+        "screen_status": "PASS"
+      },
+      "function_prediction": {
+        "status": "FLAG",
+        "max_score": 0.9942,
+        "threshold": 0.962701141834259,
+        "n_orfs_scored": 25,
+        "orfs": [
+          {
+            "strand": "+",
+            "frame": 0,
+            "nt_start": 0,
+            "nt_end": 960,
+            "aa_length": 320,
+            "toxin_virulence_score": 0.2461,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 4,
+            "nt_end": 178,
+            "aa_length": 58,
+            "toxin_virulence_score": 0.7089,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 181,
+            "nt_end": 382,
+            "aa_length": 67,
+            "toxin_virulence_score": 0.954,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 451,
+            "nt_end": 562,
+            "aa_length": 37,
+            "toxin_virulence_score": 0.9699,
+            "above_threshold": true
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 571,
+            "nt_end": 700,
+            "aa_length": 43,
+            "toxin_virulence_score": 0.894,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 739,
+            "nt_end": 850,
+            "aa_length": 37,
+            "toxin_virulence_score": 0.8276,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 853,
+            "nt_end": 963,
+            "aa_length": 36,
+            "toxin_virulence_score": 0.6572,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 2,
+            "nt_end": 182,
+            "aa_length": 60,
+            "toxin_virulence_score": 0.9942,
+            "above_threshold": true
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 344,
+            "nt_end": 452,
+            "aa_length": 36,
+            "toxin_virulence_score": 0.8943,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 731,
+            "nt_end": 830,
+            "aa_length": 33,
+            "toxin_virulence_score": 0.8923,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 69,
+            "nt_end": 147,
+            "aa_length": 26,
+            "toxin_virulence_score": 0.9574,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 150,
+            "nt_end": 246,
+            "aa_length": 32,
+            "toxin_virulence_score": 0.9793,
+            "above_threshold": true
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 249,
+            "nt_end": 342,
+            "aa_length": 31,
+            "toxin_virulence_score": 0.8834,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 396,
+            "nt_end": 513,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.9096,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 582,
+            "nt_end": 795,
+            "aa_length": 71,
+            "toxin_virulence_score": 0.8519,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 846,
+            "nt_end": 948,
+            "aa_length": 34,
+            "toxin_virulence_score": 0.8006,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 103,
+            "nt_end": 283,
+            "aa_length": 60,
+            "toxin_virulence_score": 0.9081,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 322,
+            "nt_end": 424,
+            "aa_length": 34,
+            "toxin_virulence_score": 0.8392,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 427,
+            "nt_end": 544,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.9127,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 547,
+            "nt_end": 655,
+            "aa_length": 36,
+            "toxin_virulence_score": 0.9696,
+            "above_threshold": true
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 808,
+            "nt_end": 901,
+            "aa_length": 31,
+            "toxin_virulence_score": 0.9357,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 11,
+            "nt_end": 185,
+            "aa_length": 58,
+            "toxin_virulence_score": 0.7305,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 317,
+            "nt_end": 413,
+            "aa_length": 32,
+            "toxin_virulence_score": 0.7988,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 419,
+            "nt_end": 509,
+            "aa_length": 30,
+            "toxin_virulence_score": 0.8158,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 653,
+            "nt_end": 731,
+            "aa_length": 26,
+            "toxin_virulence_score": 0.9793,
+            "above_threshold": true
+          }
+        ]
+      },
+      "combined_recommendation": "FLAG"
+    }
+  },
+  "plugin_info": {
+    "function_prediction": {
+      "plugin": "commec-fn-predict",
+      "model_dir": "models\\esm",
+      "note": "Homology-independent ML scores appended per query; commec statuses unchanged. combined_recommendation merges both layers."
+    }
+  }
+}
