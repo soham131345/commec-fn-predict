@@ -131,6 +131,12 @@ def main():
     for qname, qdata in queries.items():
 
         nt = fasta.get(qname) or fasta.get(qdata.get("query name", ""))
+        if not nt:
+            for fname, fseq in fasta.items():
+                base = fname.split("|")[0].split()[0]
+                if qname == base or fname.startswith(qname) or qname.startswith(base):
+                    nt = fseq
+                    break
         fp_block = {"status": "SKIPPED", "reason": "sequence not found in fasta",
                     "orfs": []}
         if nt:
@@ -160,7 +166,7 @@ def main():
                             "orfs": []}
         qdata["function_prediction"] = fp_block
 
-        commec_status = qdata.get("status", {}).get("screen_status", "PASS")
+        commec_status = str(qdata.get("status", {}).get("screen_status", "PASS")).upper()
         qdata["combined_recommendation"] = (
             fp_block["status"]
             if SEVERITY.get(fp_block["status"], 0) > SEVERITY.get(commec_status, 0)

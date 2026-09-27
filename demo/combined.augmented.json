@@ -1,0 +1,957 @@
+{
+  "commec_info": {
+    "commec_version": "2.1.0",
+    "json_output_version": "0.6",
+    "time_taken": "00:09:05",
+    "date_run": "2026-09-26 22:13:05"
+  },
+  "query_info": {
+    "file": "/root/demo/combined.fasta",
+    "number_of_queries": 3,
+    "total_query_length": 2889
+  },
+  "queries": {
+    "original_Q7Z1Y7": {
+      "query": "original_Q7Z1Y7",
+      "description": "",
+      "length": 963,
+      "status": {
+        "screen_status": "Flag",
+        "biorisk": "Flag",
+        "protein_taxonomy": "Pass",
+        "nucleotide_taxonomy": "Pass",
+        "low_concern": "Flag",
+        "rationale": "Matches sequence with pathogenic or toxin function."
+      },
+      "hits": [
+        {
+          "recommendation": {
+            "status": "Flag",
+            "from_step": "Biorisk Search"
+          },
+          "name": "BIORISK_4149",
+          "description": "Dermonecrotic toxin SPH OS=Ixodes scapularis OX=6945 GN=SPH PE=2 SV=1",
+          "region": {
+            "e_value": 5.3e-187,
+            "query_start": 142,
+            "query_end": 960
+          },
+          "annotations": {
+            "domain": [
+              "not assigned"
+            ],
+            "regulated": [
+              "Regulated Gene"
+            ]
+          }
+        }
+      ],
+      "function_prediction": {
+        "status": "FLAG",
+        "max_score": 0.8128,
+        "threshold": 0.7776327133178711,
+        "n_orfs_scored": 23,
+        "orfs": [
+          {
+            "strand": "+",
+            "frame": 0,
+            "nt_start": 0,
+            "nt_end": 960,
+            "aa_length": 320,
+            "toxin_virulence_score": 0.8128,
+            "above_threshold": true
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 1,
+            "nt_end": 145,
+            "aa_length": 48,
+            "toxin_virulence_score": 0.6017,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 214,
+            "nt_end": 376,
+            "aa_length": 54,
+            "toxin_virulence_score": 0.6591,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 400,
+            "nt_end": 529,
+            "aa_length": 43,
+            "toxin_virulence_score": 0.7115,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 703,
+            "nt_end": 799,
+            "aa_length": 32,
+            "toxin_virulence_score": 0.6787,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 832,
+            "nt_end": 963,
+            "aa_length": 43,
+            "toxin_virulence_score": 0.8017,
+            "above_threshold": true
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 14,
+            "nt_end": 116,
+            "aa_length": 34,
+            "toxin_virulence_score": 0.686,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 422,
+            "nt_end": 539,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.5182,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 542,
+            "nt_end": 623,
+            "aa_length": 27,
+            "toxin_virulence_score": 0.6677,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 0,
+            "nt_end": 132,
+            "aa_length": 44,
+            "toxin_virulence_score": 0.6088,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 150,
+            "nt_end": 249,
+            "aa_length": 33,
+            "toxin_virulence_score": 0.6678,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 252,
+            "nt_end": 369,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.6494,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 447,
+            "nt_end": 564,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.6276,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 588,
+            "nt_end": 963,
+            "aa_length": 125,
+            "toxin_virulence_score": 0.5964,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 193,
+            "nt_end": 283,
+            "aa_length": 30,
+            "toxin_virulence_score": 0.6588,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 325,
+            "nt_end": 424,
+            "aa_length": 33,
+            "toxin_virulence_score": 0.5582,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 535,
+            "nt_end": 787,
+            "aa_length": 84,
+            "toxin_virulence_score": 0.5907,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 793,
+            "nt_end": 868,
+            "aa_length": 25,
+            "toxin_virulence_score": 0.754,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 11,
+            "nt_end": 89,
+            "aa_length": 26,
+            "toxin_virulence_score": 0.6421,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 188,
+            "nt_end": 290,
+            "aa_length": 34,
+            "toxin_virulence_score": 0.655,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 293,
+            "nt_end": 404,
+            "aa_length": 37,
+            "toxin_virulence_score": 0.5144,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 416,
+            "nt_end": 629,
+            "aa_length": 71,
+            "toxin_virulence_score": 0.4858,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 773,
+            "nt_end": 950,
+            "aa_length": 59,
+            "toxin_virulence_score": 0.5635,
+            "above_threshold": false
+          }
+        ]
+      },
+      "combined_recommendation": "FLAG"
+    },
+    "recoded_Q7Z1Y7": {
+      "query": "recoded_Q7Z1Y7",
+      "description": "",
+      "length": 963,
+      "status": {
+        "screen_status": "Flag",
+        "biorisk": "Flag",
+        "protein_taxonomy": "Pass",
+        "nucleotide_taxonomy": "Pass",
+        "low_concern": "Flag",
+        "rationale": "Matches sequence with pathogenic or toxin function."
+      },
+      "hits": [
+        {
+          "recommendation": {
+            "status": "Flag",
+            "from_step": "Biorisk Search"
+          },
+          "name": "BIORISK_4149",
+          "description": "Dermonecrotic toxin SPH OS=Ixodes scapularis OX=6945 GN=SPH PE=2 SV=1",
+          "region": {
+            "e_value": 5.3e-187,
+            "query_start": 142,
+            "query_end": 960
+          },
+          "annotations": {
+            "domain": [
+              "not assigned"
+            ],
+            "regulated": [
+              "Regulated Gene"
+            ]
+          }
+        }
+      ],
+      "function_prediction": {
+        "status": "FLAG",
+        "max_score": 0.8128,
+        "threshold": 0.7776327133178711,
+        "n_orfs_scored": 20,
+        "orfs": [
+          {
+            "strand": "+",
+            "frame": 0,
+            "nt_start": 0,
+            "nt_end": 960,
+            "aa_length": 320,
+            "toxin_virulence_score": 0.8128,
+            "above_threshold": true
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 4,
+            "nt_end": 322,
+            "aa_length": 106,
+            "toxin_virulence_score": 0.6183,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 400,
+            "nt_end": 514,
+            "aa_length": 38,
+            "toxin_virulence_score": 0.6336,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 607,
+            "nt_end": 700,
+            "aa_length": 31,
+            "toxin_virulence_score": 0.7217,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 874,
+            "nt_end": 963,
+            "aa_length": 29,
+            "toxin_virulence_score": 0.5734,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 11,
+            "nt_end": 101,
+            "aa_length": 30,
+            "toxin_virulence_score": 0.5428,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 0,
+            "nt_end": 246,
+            "aa_length": 82,
+            "toxin_virulence_score": 0.6531,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 249,
+            "nt_end": 369,
+            "aa_length": 40,
+            "toxin_virulence_score": 0.6706,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 396,
+            "nt_end": 501,
+            "aa_length": 35,
+            "toxin_virulence_score": 0.7118,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 504,
+            "nt_end": 579,
+            "aa_length": 25,
+            "toxin_virulence_score": 0.6654,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 606,
+            "nt_end": 726,
+            "aa_length": 40,
+            "toxin_virulence_score": 0.5885,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 729,
+            "nt_end": 864,
+            "aa_length": 45,
+            "toxin_virulence_score": 0.6788,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 178,
+            "nt_end": 352,
+            "aa_length": 58,
+            "toxin_virulence_score": 0.639,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 541,
+            "nt_end": 700,
+            "aa_length": 53,
+            "toxin_virulence_score": 0.6436,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 703,
+            "nt_end": 790,
+            "aa_length": 29,
+            "toxin_virulence_score": 0.74,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 793,
+            "nt_end": 868,
+            "aa_length": 25,
+            "toxin_virulence_score": 0.7493,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 113,
+            "nt_end": 290,
+            "aa_length": 59,
+            "toxin_virulence_score": 0.6262,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 440,
+            "nt_end": 620,
+            "aa_length": 60,
+            "toxin_virulence_score": 0.6332,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 653,
+            "nt_end": 770,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.663,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 818,
+            "nt_end": 959,
+            "aa_length": 47,
+            "toxin_virulence_score": 0.4617,
+            "above_threshold": false
+          }
+        ]
+      },
+      "combined_recommendation": "FLAG"
+    },
+    "drifted0.4_Q7Z1Y7": {
+      "query": "drifted0.4_Q7Z1Y7",
+      "description": "",
+      "length": 963,
+      "status": {
+        "screen_status": "Flag",
+        "biorisk": "Flag",
+        "protein_taxonomy": "Pass",
+        "nucleotide_taxonomy": "Pass",
+        "low_concern": "Flag",
+        "rationale": "Matches sequence with pathogenic or toxin function."
+      },
+      "hits": [
+        {
+          "recommendation": {
+            "status": "Flag",
+            "from_step": "Biorisk Search"
+          },
+          "name": "BIORISK_4149",
+          "description": "Dermonecrotic toxin SPH OS=Ixodes scapularis OX=6945 GN=SPH PE=2 SV=1",
+          "region": {
+            "e_value": 2.5000000000000002e-73,
+            "query_start": 142,
+            "query_end": 960
+          },
+          "annotations": {
+            "domain": [
+              "not assigned"
+            ],
+            "regulated": [
+              "Regulated Gene"
+            ]
+          }
+        }
+      ],
+      "function_prediction": {
+        "status": "PASS",
+        "max_score": 0.7054,
+        "threshold": 0.7776327133178711,
+        "n_orfs_scored": 25,
+        "orfs": [
+          {
+            "strand": "+",
+            "frame": 0,
+            "nt_start": 0,
+            "nt_end": 960,
+            "aa_length": 320,
+            "toxin_virulence_score": 0.6074,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 4,
+            "nt_end": 178,
+            "aa_length": 58,
+            "toxin_virulence_score": 0.6363,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 181,
+            "nt_end": 382,
+            "aa_length": 67,
+            "toxin_virulence_score": 0.596,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 451,
+            "nt_end": 562,
+            "aa_length": 37,
+            "toxin_virulence_score": 0.6228,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 571,
+            "nt_end": 700,
+            "aa_length": 43,
+            "toxin_virulence_score": 0.6791,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 739,
+            "nt_end": 850,
+            "aa_length": 37,
+            "toxin_virulence_score": 0.658,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 1,
+            "nt_start": 853,
+            "nt_end": 963,
+            "aa_length": 36,
+            "toxin_virulence_score": 0.7054,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 2,
+            "nt_end": 182,
+            "aa_length": 60,
+            "toxin_virulence_score": 0.6991,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 344,
+            "nt_end": 452,
+            "aa_length": 36,
+            "toxin_virulence_score": 0.6405,
+            "above_threshold": false
+          },
+          {
+            "strand": "+",
+            "frame": 2,
+            "nt_start": 731,
+            "nt_end": 830,
+            "aa_length": 33,
+            "toxin_virulence_score": 0.6952,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 69,
+            "nt_end": 147,
+            "aa_length": 26,
+            "toxin_virulence_score": 0.6597,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 150,
+            "nt_end": 246,
+            "aa_length": 32,
+            "toxin_virulence_score": 0.6635,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 249,
+            "nt_end": 342,
+            "aa_length": 31,
+            "toxin_virulence_score": 0.6819,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 396,
+            "nt_end": 513,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.6625,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 582,
+            "nt_end": 795,
+            "aa_length": 71,
+            "toxin_virulence_score": 0.6132,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 0,
+            "nt_start": 846,
+            "nt_end": 948,
+            "aa_length": 34,
+            "toxin_virulence_score": 0.6206,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 103,
+            "nt_end": 283,
+            "aa_length": 60,
+            "toxin_virulence_score": 0.5871,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 322,
+            "nt_end": 424,
+            "aa_length": 34,
+            "toxin_virulence_score": 0.5439,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 427,
+            "nt_end": 544,
+            "aa_length": 39,
+            "toxin_virulence_score": 0.6691,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 547,
+            "nt_end": 655,
+            "aa_length": 36,
+            "toxin_virulence_score": 0.6954,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 1,
+            "nt_start": 808,
+            "nt_end": 901,
+            "aa_length": 31,
+            "toxin_virulence_score": 0.7014,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 11,
+            "nt_end": 185,
+            "aa_length": 58,
+            "toxin_virulence_score": 0.6541,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 317,
+            "nt_end": 413,
+            "aa_length": 32,
+            "toxin_virulence_score": 0.6722,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 419,
+            "nt_end": 509,
+            "aa_length": 30,
+            "toxin_virulence_score": 0.6448,
+            "above_threshold": false
+          },
+          {
+            "strand": "-",
+            "frame": 2,
+            "nt_start": 653,
+            "nt_end": 731,
+            "aa_length": 26,
+            "toxin_virulence_score": 0.6071,
+            "above_threshold": false
+          }
+        ]
+      },
+      "combined_recommendation": "FLAG"
+    }
+  },
+  "database_info": {
+    "search_tool_info": {
+      "biorisk_search_info": {
+        "tool_info": "HMMER 3.4 (Aug 2023); http://hmmer.org/",
+        "database_info": "HMMER3 [3.4 | Aug 2023]"
+      },
+      "protein_search_info": {
+        "tool_info": "blastx: 2.17.0+  Package: blast 2.17.0, build Aug 22 2026 11:52:50",
+        "database_info": "BLASTDB Version: 5 Date: Jul 6, 2026  12:04 PM Longest sequence: 46,734 residues"
+      },
+      "nucleotide_search_info": {
+        "tool_info": "blastn: 2.17.0+  Package: blast 2.17.0, build Aug 22 2026 11:52:50",
+        "database_info": "BLASTDB Version: 5 Date: Jul 7, 2026  5:52 PM Longest sequence: 1,991,922 bases"
+      },
+      "low_concern_protein_search_info": {
+        "tool_info": "HMMER 3.4 (Aug 2023); http://hmmer.org/",
+        "database_info": "HMMER3 [3.1b2 | February 2015]"
+      },
+      "low_concern_rna_search_info": {
+        "tool_info": "INFERNAL 1.1.5 (Sep 2023)",
+        "database_info": "INFERNAL1/a [1.1.5 | Sep 2023]"
+      },
+      "low_concern_dna_search_info": {
+        "tool_info": "blastn: 2.17.0+  Package: blast 2.17.0, build Aug 22 2026 11:52:50",
+        "database_info": "BLASTDB Version: 5 Date: Dec 5, 2025  4:10 PM Longest sequence: 66,879 bases"
+      }
+    },
+    "revisions": {
+      "biorisk": "1.2",
+      "best_match": "1.0",
+      "low_concern": "1.1",
+      "control_lists": "1.1"
+    },
+    "control_list_info": [
+      {
+        "name": "Dual-Use Items Export Control List of the People\u2019s Republic of China",
+        "acronym": "DUPRC",
+        "region": "People's Republic of China",
+        "includes": "CN",
+        "status": "Compliance",
+        "url": "https://www.china-briefing.com/news/china-issues-new-export-control-regulations/"
+      },
+      {
+        "name": "Select Agents and Toxins List (HHS)",
+        "acronym": "BSATHHS",
+        "region": "United States of America",
+        "includes": "US",
+        "status": "Compliance",
+        "url": "https://www.selectagents.gov/sat/list.htm"
+      },
+      {
+        "name": "Select Agents and Toxins List (USDA)",
+        "acronym": "BSATUSDA",
+        "region": "United States of America",
+        "includes": "US",
+        "status": "Compliance",
+        "url": "https://www.selectagents.gov/sat/list.htm"
+      },
+      {
+        "name": "United States Department of Agriculture Plant Protection and Quarantine",
+        "acronym": "PPQUSDA",
+        "region": "United States of America",
+        "includes": "US",
+        "status": "Compliance",
+        "url": "https://www.selectagents.gov/sat/list.htm"
+      },
+      {
+        "name": "The Commerce Control List",
+        "acronym": "USCCL",
+        "region": "United States of America",
+        "includes": "US",
+        "status": "Compliance",
+        "url": "https://www.bis.gov/regulations/ear/774"
+      },
+      {
+        "name": "United States Munitions Lists",
+        "acronym": "USML",
+        "region": "United States of America",
+        "includes": "US",
+        "status": "Compliance",
+        "url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-121#121.1"
+      },
+      {
+        "name": "India Export Controls (SCOMET List)",
+        "acronym": "SCOMET",
+        "region": "India",
+        "includes": "IN",
+        "status": "Compliance",
+        "url": "https://www.mea.gov.in/Portal/Images/SCOMET-List-2021.pdf"
+      },
+      {
+        "name": "EU List of Animal Pathogens",
+        "acronym": "EULAP",
+        "region": "European Union",
+        "includes": "AT,FR,PL,MT,IT,RO,DK,NL,LU,HR,CZ,PT,SE,SK,GR,BG,DE,SI,CY,HU,ES,LV,IE,BE,LT,EE,FI",
+        "status": "Compliance",
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2018/1882/oj/eng"
+      },
+      {
+        "name": "EU Dual-Use Export Control Regime",
+        "acronym": "EUDUECR",
+        "region": "European Union",
+        "includes": "AT,FR,PL,MT,IT,RO,DK,NL,LU,HR,CZ,PT,SE,SK,GR,BG,DE,SI,CY,HU,ES,LV,IE,BE,LT,EE,FI",
+        "status": "Compliance",
+        "url": "https://eur-lex.europa.eu/eli/reg/2021/821/oj/eng"
+      },
+      {
+        "name": "Specified Animal Pathogen Order",
+        "acronym": "SAPO",
+        "region": "United Kingdom",
+        "includes": "GB",
+        "status": "Compliance",
+        "url": "https://www.hse.gov.uk/pubns/books/hsg280.htm"
+      },
+      {
+        "name": "Schedule 5 of the Anti-terrorism, Crime and Security Act 2001",
+        "acronym": "ATCSA",
+        "region": "United Kingdom",
+        "includes": "GB",
+        "status": "Compliance",
+        "url": "https://www.legislation.gov.uk/ukpga/2001/24/2002-05-31/data.pdf"
+      },
+      {
+        "name": "Control of Substances Hazardous to Health Regulations 2002",
+        "acronym": "COSHH",
+        "region": "United Kingdom",
+        "includes": "GB",
+        "status": "Compliance",
+        "url": "https://www.hse.gov.uk/pubns/misc208.htm"
+      },
+      {
+        "name": "UK Strategic Export Control List",
+        "acronym": "UKSECL",
+        "region": "United Kingdom",
+        "includes": "GB",
+        "status": "Compliance",
+        "url": "https://assets.publishing.service.gov.uk/media/660d281067958c001f365abe/uk-strategic-export-control-list.pdf"
+      },
+      {
+        "name": "Declaration of Certain Biological Goods and Technologies as Controlled Goods",
+        "acronym": "ZAEC",
+        "region": "South Africa",
+        "includes": "ZA",
+        "status": "Compliance",
+        "url": "https://bwcimplementation.org/sites/default/files/resource/SouthAfrica_WMDAct2024.pdf"
+      },
+      {
+        "name": "Russian Federation Export Control (Humans and animals)",
+        "acronym": "RFECHA",
+        "region": "Russian Federation",
+        "includes": "RU",
+        "status": "Compliance",
+        "url": "http://www.tsouz.ru/db/exportcontrol/tpek/Documents/%D0%B2%D0%BE%D0%B7%D0%B1%D1%83%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B8.pdf"
+      },
+      {
+        "name": "Russian Federation Export Control (Animals)",
+        "acronym": "RFECA",
+        "region": "Russian Federation",
+        "includes": "RU",
+        "status": "Compliance",
+        "url": "http://www.tsouz.ru/db/exportcontrol/tpek/Documents/%D0%B2%D0%BE%D0%B7%D0%B1%D1%83%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B8.pdf"
+      },
+      {
+        "name": "Australia Group Common Control List Human and Animal Pathogens",
+        "acronym": "CCL",
+        "region": "Australia Group",
+        "includes": "PL,AU,IS,MT,NZ,MX,CA,CZ,IN,SK,NO,AR,CY,UA,LV,IE,BE,LT,KR,EE,AT,FR,JP,IT,RO,DK,NL,LU,HR,US,SE,GR,BG,DE,CH,SI,GB,HU,TR,ES,PT,FI",
+        "status": "Compliance",
+        "url": "https://www.dfat.gov.au/publications/minisite/theaustraliagroupnet/site/en/controllists.html"
+      },
+      {
+        "name": "Australia Group Common Control List Plant Pathogens",
+        "acronym": "PPCCL",
+        "region": "Australia Group",
+        "includes": "PL,AU,IS,MT,NZ,MX,CA,CZ,IN,SK,NO,AR,CY,UA,LV,IE,BE,LT,KR,EE,AT,FR,JP,IT,RO,DK,NL,LU,HR,US,SE,GR,BG,DE,CH,SI,GB,HU,TR,ES,PT,FI",
+        "status": "Compliance",
+        "url": "https://www.dfat.gov.au/publications/minisite/theaustraliagroupnet/site/en/controllists.html"
+      },
+      {
+        "name": "Lista de Bens Relacionados \u00e0 \u00c1rea Biol\u00f3gica e Servi\u00e7os Diretamente Vinculados",
+        "acronym": "CIBES",
+        "region": "Brazil",
+        "includes": "BR",
+        "status": "Compliance",
+        "url": "https://bwcimplementation.org/sites/default/files/resource/resolucao-cibes-ndeg-13-10-03-2010%5B1%5D.pdf"
+      }
+    ]
+  },
+  "plugin_info": {
+    "function_prediction": {
+      "plugin": "commec-fn-predict",
+      "model_dir": "/root/models/kmer",
+      "note": "Homology-independent ML scores appended per query; commec statuses unchanged. combined_recommendation merges both layers."
+    }
+  }
+}

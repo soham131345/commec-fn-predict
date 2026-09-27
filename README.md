@@ -48,6 +48,10 @@ threshold. The k-mer model collapses to noise by 40 percent identity. The ESM-2
 model still recalls 7 percent of hazards at 20 percent identity, deep inside the
 regime where homology search fails.
 
+In-situ probe: 40 held-out toxins in fresh DNA — commec flagged 35/40 (87.5%);
+the ESM-2 layer ranked all 4 of commec's misses in the 0.69–0.94 band and the
+combined stack flagged 39/39 evaluable queries. See manuscript Section 3.3.
+
 | Mean identity to original | k-mer recall | ESM-2 recall |
 |---|---|---|
 | 100% | 0.329 | 0.364 |
