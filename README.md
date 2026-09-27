@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/1388954909.svg)](https://doi.org/10.5281/zenodo.22999841)
+[![Code DOI](https://zenodo.org/badge/1388954909.svg)](https://doi.org/10.5281/zenodo.22999841)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22999875.svg)](https://doi.org/10.5281/zenodo.22999875)
 # commec-fn-predict
 
 Homology-independent toxin/virulence function prediction for DNA synthesis screening, packaged as a non-invasive plugin for the Common Mechanism (commec).
@@ -196,14 +197,19 @@ python scripts/commec_fn_plugin.py --input-fasta demo/combined.fasta \
 - The intended adopters are DNA synthesis providers and screening maintainers
   (IBBIS, SecureDNA), alongside whom findings of this kind should be shared.
 
-## 9. Citing this work
+## 9. Citation
 
-```
-Bhole, S. (2026). Homology-independent function prediction as a drop-in layer
-for DNA synthesis screening: calibrated k-mer and protein language model
-baselines with a non-invasive plugin for the Common Mechanism.
-bioRxiv. DOI to be added after posting.
-```
+Paper (preprint):
+
+    Bhole, S. (2026). Homology-independent function prediction as a drop-in layer
+    for DNA synthesis screening: calibrated k-mer and protein language model
+    baselines with a non-invasive plugin for the Common Mechanism.
+    Zenodo. https://doi.org/10.5281/zenodo.22999875
+
+Code:
+
+    Bhole, S. (2026). commec-fn-predict (v1.0.0) [Computer software].
+    Zenodo. https://doi.org/10.5281/zenodo.22999841
 
 ## 10. Contact
 
