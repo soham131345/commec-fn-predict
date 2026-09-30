@@ -1,5 +1,4 @@
-[![Code DOI](https://zenodo.org/badge/1388954909.svg)](https://doi.org/10.5281/zenodo.22999841)
-[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22999875.svg)](https://doi.org/10.5281/zenodo.22999875)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22999842.svg)](https://doi.org/10.5281/zenodo.22999842) [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22999875.svg)](https://doi.org/10.5281/zenodo.22999875)
 # commec-fn-predict
 
 Homology-independent toxin/virulence function prediction for DNA synthesis screening, packaged as a non-invasive plugin for the Common Mechanism (commec).
